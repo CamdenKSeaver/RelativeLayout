@@ -20,38 +20,38 @@
             android:layout_alignParentTop="true"
             android:background="#FFFFFF"
             android:hint="Name"
-            android:padding="16dp" />
+            android:padding="15dp" />
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/PhoneNumber"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="11dp"
             android:layout_toRightOf="@+id/name"
             android:background="#FFFFFF"
             android:hint="Phone Number"
-            android:padding="16dp" />
+            android:padding="15dp" />
 
         <EditText
             android:id="@+id/subject"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/name"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="35dp"
             android:background="#FFFFFF"
             android:hint="Subject"
-            android:padding="16dp" />
+            android:padding="15dp" />
 
         <EditText
             android:id="@+id/message"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_below="@+id/subject"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="60dp"
             android:background="#FFFFFF"
             android:gravity="top"
             android:hint="Message"
-            android:padding="16dp" />
+            android:padding="15dp" />
 
         <Button
             android:id="@+id/submit"
@@ -59,10 +59,19 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/message"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="35dp"
             android:backgroundTint="#FFFFFF"
-            android:padding="16dp"
+            android:padding="15dp"
             android:text="Submit"
             android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_alignBottom="@+id/message"
+            android:layout_centerHorizontal="true"
+            />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
